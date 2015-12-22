@@ -40,6 +40,7 @@ a:hover                        { text-decoration:none; }
 .align-l                       { text-align:left !important; }
 .align-c                       { text-align:center !important; }
 .clear                         { clear:both; }
+
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------WRAPPER--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -209,7 +210,7 @@ header .right-panel li:last-child a{
 }
 
 .article-header{
-    height: 100px;
+    height: 103px;
     /*padding-top: 15px;*/
     box-sizing: border-box
 
@@ -233,6 +234,7 @@ a.btn,
     padding-top: 13px;
     border-radius: 4px;
     font-weight: 600;
+    padding-bottom: 5px;
 }
 
 .fa-chevron-left{
@@ -246,6 +248,8 @@ a.btn,
     color: #454545;
     text-transform: uppercase;
     font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 2px;
     }
 
 .right-nav{
@@ -278,7 +282,7 @@ a.btn,
 
 .content-list dt,
 .content-list dd{
-    padding: 3px 20px 5px;
+    padding: 5px 20px;
 }
 
 .content-list {
@@ -325,8 +329,8 @@ a.btn,
 
 .btn.delete-btn{
     float: left;
-    padding: 12px 17px 12px 35px;
-    margin-top: 17px;
+    padding: 13px 17px 13px 35px;
+    margin-top: 23px;
     color:#fff;
     border-radius: 4px;
     background:  #f3481c url("../images/del_icon.png") no-repeat 13px 14px;
@@ -470,9 +474,6 @@ td.id-tabl-advertisers{
     font-size: 17px;
     color: #444;
 }
-.margin-h1{
-    margin-top: 25px;
-}
 .btn.add-new-btn{
     color: #fff;
     margin-top: 30px;
@@ -509,7 +510,7 @@ h1{
     color: #454545;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     font-family: "Open Sans";
 }
 h2{
@@ -844,6 +845,10 @@ a.btn.btn-active{
     padding-left: 15px;
 }
 /*---------------------ticket-----------------------------*/
+.ticketpage h1{
+    margin-top: 8px;
+}
+
 .ticket {
     margin-bottom: 10px;
     background-color: #fff;
@@ -854,8 +859,9 @@ a.btn.btn-active{
 .ticket h3{
     color: #444;
     font-size: 14px;
-    line-height: 0.5;
+    line-height: 0.7;
     font-weight: normal;
+    margin-top: 10px;
     }
 .ticket .mail {
     color: #759e2d;
@@ -868,7 +874,7 @@ a.btn.btn-active{
 
 .ticket p{
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 9px;
 }
 .ticket-answer{
     padding-left: 50px;
@@ -927,7 +933,75 @@ a.btn.btn-active{
     color: #fff;
     font-weight: 600;
     padding: 10px 10px 11px;
+}
+/* --------------ticket Table -------------------*/
 
+.quest-tabl-ticket{
+    width: 57%;
+}
+.user-tabl-ticket {
+    width: 18%;
+}
+.last-tabl-ticket{
+    width: 12%
+}
+.status-tabl-ticket{
+    width: 8%;
+}
+.table.tickets th:nth-child(2),
+.table.tickets th:nth-child(3){
+    text-align: left;
+}
+.table.tickets td:nth-child(4),
+.table.tickets td:nth-child(5){
+    text-align: center;
+}
+.table.tickets tr:nth-child(2) td{
+    font-weight: bold;
+}
+/*----------User details edit-----------------------*/
+
+/*.user-list .editFirstName,*/
+/*.user-list .editLastName{*/
+    /*margin-top: 10px;*/
+/*}*/
+.user-list dt:first-child{
+    margin-top: 0;
+}
+.user-list dt{
+    margin-top: 10px;
+}
+.user-list .edit_apartment,
+.user-list .edit_zip{
+    width: 140px;
 }
 
-
+.user-list .green-select{
+    width: 298px;
+}
+.user-list .green-select select{
+    width: 326px;
+}
+.user-list .btn-inactive{
+    margin-left:-4px;
+}
+.user-list .first-indent{
+    padding-bottom: 15px;
+}
+/*-----------------------------------users----------------------------*/
+.userspage h1{margin-top: 28px;}
+.userspage .admin-btn{margin-right: 10px;}
+.table.users{text-align: center}
+.users .name-tabl-users{
+    width: 15%;
+    text-align: left;
+}
+.type-tabl-users,
+.reg-tabl-users{ width: 18%;}
+.email-tabl-users{
+    width: 32%;
+    text-align: left;
+}
+.points-tabl-users{width: 7%;}
+.users th:nth-child(2),
+.users th:nth-child(3){text-align:left;}
