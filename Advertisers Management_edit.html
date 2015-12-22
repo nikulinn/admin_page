@@ -12,59 +12,57 @@
 	<div class="wrapper">
         <nav class="main-nav">
             <ul>
-                <li><a href="#" class="main-logo"><img src="images/logo.png" alt="Main logo"></a></li>
-                <li class="dashboard"><a href="Dashboard.html" ><p>Dashboard</p></a></li>
-                <li class="offers"><a href="#" ><p>Offers <br> Managment</p></a></li>
-                <li class="advertisers"><a href="Advertisers Management.html" class="advertisers"><p>Advertisers <br>Managment</p></a></li>
-                <li class="users-management"><a href="#" ><p>Users <br> Managment</p></a></li>
-                <li class="faq"><a href="faq.html" ><p>FAQ <br> Managment</p></a></li>
-                <li class="tickets"><a href="#" ><span class="ticket-counter">12</span><p> Tickets</p></a></li>
+                <li><a href="#" class="main-logo"><img src="images/logo.png" alt="Main logo" title="Main logo"></a></li>
+                <li class="dashboard-nav"><a href="Dashboard.html" ><p>Dashboard</p></a></li>
+                <li class="offers-nav"><a href="#" ><p>Offers <br> Managment</p></a></li>
+                <li class="advertisers-nav-bg"><a href="Advertisers Management.html" class="advertisers"><p>Advertisers <br>Managment</p></a></li>
+                <li class="users-management-nav"><a href="#" ><p>Users <br> Managment</p></a></li>
+                <li class="faq-nav"><a href="faq.html" ><p>FAQ <br> Managment</p></a></li>
+                <li class="tickets-nav"><a href="#" ><span class="ticket-counter">12</span><p> Tickets</p></a></li>
             </ul>
 
         </nav>
 		<header>
             <ul class="right-panel float-r">
-                <li>Welcom <a href="Advertisers.html" class="profile"> admin</a></li>
+                <li>Welcome <a href="Advertisers.html" class="profile">Admin</a></li>
                 <li><a href="">exit</a></li>
             </ul>
 		</header>
-		<article class="content">
+		<div class="content">
             <div class="article-header">
 			    <a href="Advertisers Management.html" class="btn back_btn float-l"><!--<i class="fa fa-chevron-left fa-fw"></i>--><span>back</span></a>
 			    <h1 class="main-page-title">Company ltd.</h1>
             </div>
-			<div class="about_user">
-				<ul class="about-left edit_lineHeight">
-					<li>id</li>
-					<li>title</li>
-					<li>contact name</li>
-					<li>email</li>
-					<li>login url</li>
-					<li>login username</li>
-					<li>api key</li>
-					<li>postback url  </li>
-					<li>network ip</li>
-				</ul>
-
-                <form action="" method="" id="edit_profile" >
-                    <ul>
-                        <li><p>35569</p></li>
-                        <li><input type="text" placeholder="Name company" id="edit_NameCompany" required="required" name="NameCompany"></li>
-                        <li>
-                            <input class="editFirstName" type="text" placeholder="First Name." id="edit_firstName" required="required" name="firstName">
-                            <input class="editLastName" type="text" placeholder="Last Name." id="edit_lastName" required="required" name="lastName">
-                        </li>
-                        <li class=""><input type="email" placeholder="Email" id="edit_email" required="required" name="Email"></li>
-                        <li class=""><input type="url" placeholder="Login Url" id="edit_loginUrl" required="required" name="loginUrl"></li>
-                        <li class=""><input type="text" placeholder="User Name." id="edit_userName" required="required" name="userName"></li>
-                        <li class="">
-                            <input class="apiKey" type="text" placeholder="Api Key" id="edit_apiKey" required="required" name="apiKey">
-                            <input type="button" class="btn generate-btn" value="Generate">
-                        </li>
-                        <li class=""><input type="url" placeholder="Back Url" id="edit_backUrl" required="required" name="backUrl"></li>
-                        <li><input type="text" placeholder="Network API" id="edit_backUrl" required="required" name="backUrl"></li>
-                        <li><label class="error" style="display:none;">Something wrong</label></li>
-                    </ul>
+            <div class="about_user">
+                <form action="" method="" id="" >
+                    <dl class="content-list edit-list">
+                        <dt class="first-indent"><p>id</p></dt>
+                            <dd class="first-indent"><p>35569</p></dd>
+                        <dt><label for="edit_NameCompany">title</label></dt>
+                            <dd><input type="text" placeholder="Name company" id="edit_NameCompany" required="required" name="NameCompany"></dd>
+                        <dt><label for="edit_firstName">contact name</label></dt>
+                            <dd>
+                                <input class="editFirstName" type="text" placeholder="First Name." id="edit_firstName" required="required" name="firstName">
+                                <input class="editLastName" type="text" placeholder="Last Name." id="edit_lastName" required="required" name="lastName">
+                            </dd>
+                        <dt><label for="edit_email">email</label></dt>
+                            <dd class=""><input type="email" placeholder="Email" id="edit_email" required="required" name="Email"></dd>
+                        <dt><label for="edit_loginUrl"> login url</label></dt>
+                            <dd><input type="url" placeholder="Login Url" id="edit_loginUrl" required="required" name="loginUrl"></dd>
+                        <dt><label for="edit_userName">login username</label></dt>
+                            <dd><input type="text" placeholder="User Name." id="edit_userName" required="required" name="userName"></dd>
+                        <dt><label for="edit_apiKey">api key</label></dt>
+                            <dd>
+                                <input class="apiKey" type="text" placeholder="Api Key" id="edit_apiKey" required="required" name="apiKey">
+                                <input type="button" class="btn generate-btn" value="Generate">
+                            </dd>
+                        <dt><label for="edit_backUrl">postback url</label></dt>
+                            <dd class=""><input type="url" placeholder="Back Url" id="edit_backUrl" required="required" name="backUrl"></dd>
+                        <dt><label for="edit-ip">network ip</label></dt>
+                            <dd><input type="text" placeholder="Network API" id="edit-ip" required="required" name="backUrl" class="network-ip"></dd>
+                        <dt></dt>
+                            <dd><label class="error" style="display:none;">Something wrong</label></dd>
+                    </dl>
                 </form>
 
 			</div>
@@ -72,7 +70,7 @@
                 <li><a href="Advertisers Management.html" class="btn"><span>Cancel</span></a></li>
                 <li><a href="Advertisers Management.html" class="btn btn-green-hover"><span>Save Changes</span></a></li>
             </ul>
-		</article>
+		</div>
 	</div>
 	
 </body>

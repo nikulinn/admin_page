@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Index</title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="main-logo"><img src="images/logo.png" alt="Main logo" title="Main logo"></a></li>
+                <li class="dashboard-nav"><a href="Dashboard.html" ><p>Dashboard</p></a></li>
+                <li class="offers-nav"><a href="#" ><p>Offers <br> Managment</p></a></li>
+                <li class="advertisers-nav-bg"><a href="Advertisers Management.html" class="advertisers"><p>Advertisers <br>Managment</p></a></li>
+                <li class="users-management-nav"><a href="#" ><p>Users <br> Managment</p></a></li>
+                <li class="faq-nav"><a href="faq.html" ><p>FAQ <br> Managment</p></a></li>
+                <li class="tickets-nav"><a href="#" ><span class="ticket-counter">12</span><p> Tickets</p></a></li>
+            </ul>
+
+        </nav>
+		<header>
+            <ul class="right-panel float-r">
+                <li>Welcome <a href="Advertisers.html" class="profile">Admin</a></li>
+                <li><a href="">exit</a></li>
+            </ul>
+		</header>
+		<div class="div">
+            <div class="article-header">
+			    <a href="Advertisers Management.html" class="btn back_btn float-l"><!--<i class="fa fa-chevron-left fa-fw"></i>--><span>back</span></a>
+			    <h1 class="main-page-title">Company ltd.</h1>
+            </div>
+			<div class="about_user">
+				<ul class="about-left edit_lineHeight">
+					<li>id</li>
+					<li>title</li>
+					<li>contact name</li>
+					<li>email</li>
+					<li>login url</li>
+					<li>login username</li>
+					<li>api key</li>
+					<li>postback url  </li>
+					<li>network ip</li>
+				</ul>
+
+                <form action="" method="" id="edit_profile" >
+                    <ul>
+                        <li><p>35569</p></li>
+                        <li><input type="text" placeholder="Name company" id="edit_NameCompany" required="required" name="NameCompany"></li>
+                        <li>
+                            <input class="editFirstName" type="text" placeholder="First Name." id="edit_firstName" required="required" name="firstName">
+                            <input class="editLastName" type="text" placeholder="Last Name." id="edit_lastName" required="required" name="lastName">
+                        </li>
+                        <li class=""><input type="email" placeholder="Email" id="edit_email" required="required" name="Email"></li>
+                        <li class=""><input type="url" placeholder="Login Url" id="edit_loginUrl" required="required" name="loginUrl"></li>
+                        <li class=""><input type="text" placeholder="User Name." id="edit_userName" required="required" name="userName"></li>
+                        <li class="">
+                            <input class="apiKey" type="text" placeholder="Api Key" id="edit_apiKey" required="required" name="apiKey">
+                            <input type="button" class="btn generate-btn" value="Generate">
+                        </li>
+                        <li class=""><input type="url" placeholder="Back Url" id="edit_backUrl" required="required" name="backUrl"></li>
+                        <li><input type="text" placeholder="Network API" id="edit_backUrl" required="required" name="backUrl"></li>
+                        <li><label class="error" style="display:none;">Something wrong</label></li>
+                    </ul>
+                </form>
+
+			</div>
+			<ul class="right-nav">
+                <li><a href="Advertisers Management.html" class="btn"><span>Cancel</span></a></li>
+                <li><a href="Advertisers Management.html" class="btn btn-green-hover"><span>Save Changes</span></a></li>
+            </ul>
+		</div>
+	</div>
+	
+</body>
+</html>

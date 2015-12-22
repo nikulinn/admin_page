@@ -1,0 +1,45 @@
+  <table>
+  <tbody id="test">
+   <tr class="drag">
+    <td>1111</td>
+   </tr>
+   <tr class="hide">
+    <td>ccccccccc</td>
+   </tr>
+   <tr class="hide">
+    <td>rrrrrrrrr</td>
+   </tr>
+   <tr>
+    <td>2222</td>
+   </tr>
+   <tr>
+    <td>3333</td>
+   </tr>
+    <tbody>
+  </table>
+
+$('#test').sortable({
+  placeholder: 'emptySpace',
+  update: function(event, ui) { 
+    $('.hide').insertAfter(".drag");
+     
+    }
+}); 
+
+.hide{
+  display:block;
+}
+#test{ 
+width: 100px;
+background-color: lightgrey;
+font-size: large;
+margin: 4px; 
+text-align: center; 
+border: medium solid black;
+padding: 10px;
+}
+#test tr {background-color: lightgreen}
+.emptySpace {border: medium dotted red; height: 36px; margin: 4px}
+
+
+
