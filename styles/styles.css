@@ -64,6 +64,9 @@ a:hover                        { text-decoration:none; }
 .main-nav ul{
     border-bottom:1px solid #709332 ;
 }
+.main-nav li:first-child{
+    min-height: 85px;
+}
 .main-nav li{
     min-height: 100px;
     background-color: #7ca338;
@@ -76,10 +79,10 @@ a:hover                        { text-decoration:none; }
     margin-left: 27px ;
 }
 
-.main-nav .dashboard-nav{
+.dashboard-nav{
     background: url("../images/dashboard.png") no-repeat center 20px;
 }
-.dashboard-nav-bg ,
+.main-nav .dashboard-nav-bg ,
 .dashboard-nav:hover{
     background: #5e7e24 url("../images/dashboard-hover.png") no-repeat center 20px;
    }
@@ -87,14 +90,14 @@ a:hover                        { text-decoration:none; }
 .offers-nav{
     background: url("../images/folder.png") no-repeat center 20px;
 }
-.offers-nav-bg,
+.main-nav .offers-nav-bg,
 .offers-nav:hover{
     background: #5e7e24 url("../images/offers-hover.png") no-repeat center 20px;
     }
 .advertisers-nav{
     background: #5e7e24 url("../images/user.png") no-repeat center 20px;
     }
-.advertisers-nav-bg,
+.main-nav .advertisers-nav-bg,
 .advertisers-nav:hover{
     background: #5e7e24 url("../images/user-hover.png") no-repeat center 20px;
    }
@@ -102,7 +105,7 @@ a:hover                        { text-decoration:none; }
 .users-management-nav{
     background: url("../images/users.png") no-repeat center 20px;
 }
-.users-management-nav-bg,
+.main-nav .users-management-nav-bg,
 .users-management-nav:hover{
     background: #5e7e24 url("../images/users-hover.png") no-repeat center 20px;
    }
@@ -110,14 +113,14 @@ a:hover                        { text-decoration:none; }
     background: url("../images/faq.png") no-repeat center 20px;
 }
 
-.faq-nav-bg,
+.main-nav .faq-nav-bg,
 .faq-nav:hover{
     background: #5e7e24 url("../images/faq-hover.png") no-repeat center 20px;
    }
 .tickets-nav{
     background: url("../images/tickets.png") no-repeat center 20px;
 }
-.tickets-nav-bg,
+.main-nav .tickets-nav-bg,
 .tickets-nav:hover{
     background: #5e7e24 url("../images/tickets-hover.png") no-repeat center 20px;
 
@@ -216,12 +219,13 @@ header .right-panel li:last-child a{
 
 }
 .article-header .right-nav{
-    margin-top: 5px;
+    margin: 19px 5px 10px;
+
 }
 a.back_btn{
     color: #759e2d;
     font-weight: 600;
-    background: url("../images/arow_left.png") no-repeat 7px 14px;
+    background: url("../images/arow_left.png") no-repeat 10px 14px;
     padding-left:  20px;
     font-size: 12px;
 
@@ -237,9 +241,9 @@ a.btn,
     padding-bottom: 5px;
 }
 
-.fa-chevron-left{
-    font-size: 15px;
-}
+/*.fa-chevron-left{*/
+    /*font-size: 15px;*/
+/*}*/
 .article-header h1{
     float: left;
     clear: both;
@@ -262,20 +266,19 @@ a.btn,
 }
 
 .right-nav li a{
-    padding: 13px;
+    padding: 12px 13px 12px 18px;
     border-radius: 4px;
     border: 1px solid #96c93d;
-}
-.right-nav li:first-child a{
-    padding-left: 20px;
-
-}
-
-.right-nav li .btn{
     color: #759e2d;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 14px;
 }
+.right-nav li:first-child a{
+    padding-left: 25px;
+
+}
+
 .right-nav li:last-child a span{
     margin-left: 5px;
 }
@@ -304,11 +307,12 @@ a.btn,
     padding-top: 27px;
 }
 .content-list dd:last-child{
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .content-list  .first-indent{
     padding-top: 36px;
+    padding-bottom: 15px;
 }
 .content-list .bold-comission{
     text-transform: uppercase;
@@ -329,7 +333,7 @@ a.btn,
 
 .btn.delete-btn{
     float: left;
-    padding: 13px 17px 13px 35px;
+    padding: 13px 20px 13px 40px;
     margin-top: 23px;
     color:#fff;
     border-radius: 4px;
@@ -341,7 +345,15 @@ a.btn,
     color: #759e2d;
 }
 /*---------------------Edit Form-----------------------------------------*/
-
+.adv-list dt{
+    padding-top: 20px;
+}
+.right-nav.save li a{
+    padding: 12px 13px 12px 8px;
+}
+.right-nav.save li:first-child a {
+    padding: 12px 15px;
+}
 .about-left{
     float: left;
     width: 300px;
@@ -417,45 +429,47 @@ a.btn,
 
 }
 /*---------------------------------add-advertiser--------------------------------------*/
+.advertiserpage h1{margin-top: 27px}
 
 table.table{
     width:100%;
     background-color: #fff;
 }
 .table th{
-   text-align:center;
+    text-align: center;
     color:#759e2d;
     text-transform: uppercase;
-    padding: 15px 10px;
+    padding: 13px 0 12px;
 }
-.atable th:first-child{
-   padding: 15px 0 15px 25px;
+.advertisers.table th{
+   text-align:left;
+}
+.advertisers.table th:first-child,
+.advertisers.table td:first-child{
+  text-align: center;
 }
 .table td{
     font-weight: 400;
-    padding: 15px 10px;
+    padding: 16px 0 14px;
     white-space: nowrap;
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
 }
-td.id-tabl-advertisers{
-    width: 14.1176470588%;
-    color: #444;
+.name-tabl-adv,
+.email-tabl-adv{
+    width: 18%;
 }
-.name-tabl-advertisers,
-.email-tabl-advertisers{
-    width: 17.6470588234%;
+.url-tabl-adv{
+    width: 54%;
 }
-.url-tabl-advertisers{
-    width: 43%;
-}
-.btn-tabl-advertisers{
-    width: 1.76470588235%;
-    font-size: 12px;
-}
+/*.btn-tabl-advertisers{*/
+    /*width: 1.76470588235%;*/
+    /*font-size: 12px;*/
+/*}*/
 
 .table tr:nth-child(even){
     background-color: #fbfcf8;
+
 }
 .table tr:hover{
     background-color: #d5e2c0;
@@ -466,21 +480,21 @@ td.id-tabl-advertisers{
     font-weight: 800;
     background-color: #f7f7f7;
 }
-.fa.del-icon{
-    font-size: 19px;
-    color: #444;
-}
-.fa.edit-icon{
-    font-size: 17px;
-    color: #444;
-}
+/*.fa.del-icon{*/
+    /*font-size: 19px;*/
+    /*color: #444;*/
+/*}*/
+/*.fa.edit-icon{*/
+    /*font-size: 17px;*/
+    /*color: #444;*/
+/*}*/
 .btn.add-new-btn{
     color: #fff;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 12px 17px 12px 35px;
+    margin: 37px 5px 25px 0;
+    padding: 13px 18px 12px 37px;
+    font-size: 14px;
     font-weight: 600;
-    background:  #96c93d url("../images/add-icon.png") no-repeat 13px 14px;
+    background:  #96c93d url("../images/add-icon.png") no-repeat 18px 16px;
 }
 /************************Pagination******************************************************/
 .pagination-advertisers{
@@ -505,16 +519,18 @@ td.id-tabl-advertisers{
 .previous-off a{
     color: #a1a1a1;
 }
-h1{
+/*--------------------------Dashboard---------------------------------------*/
+.dashboardpage h1{
     font-size: 45px;
     color: #454545;
     text-transform: uppercase;
     font-weight: 600;
-    /*margin-top: 25px;*/
+    margin-top: 30px;
     font-family: "Open Sans";
+    letter-spacing: 2px;
 }
-h2{
-    padding-top: 15px;
+.dashboardpage h2{
+    padding-top: 12px;
     padding-bottom: 12px;
     font-size: 24px;
     font-weight: 400;
@@ -533,7 +549,7 @@ h2.first-title-dash{
     width: 324px;
     height: 500px;
     margin-right: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 4px;
     background: #fff;
     padding: 20px;
@@ -547,8 +563,7 @@ h2.first-title-dash{
     width: 60px;
     height: 60px;
     float: left;
-    margin-right: 20px ;
-    margin-bottom: 15px ;
+    margin: 0 20px 20px 0;
 }
 .revenue-block h3{
     color: #759e2d;
@@ -557,19 +572,17 @@ h2.first-title-dash{
     line-height: 0.5;
     margin-bottom: 1px;
     margin-top: 18px;
+    letter-spacing: 2px;
 }
-.revenue-block span{
-    font-size: 12px;
-    color: #888;
-}
+
 .revenue-block  p{
     clear: left;
+    line-height: 1.4;
+    font-size: 12px;
  }
-.revenue-block li{
-    font-size: 14px;
-    color: #888;
-    line-height: 1;
-}
+/*.revenue-block ul li:first-child{*/
+    /*margin-right: 5px;*/
+/*}*/
 .revenue-block ul li:last-child{
     margin-right: 0;
 }
@@ -578,16 +591,25 @@ h2.first-title-dash{
     text-transform: uppercase;
     margin-right: 20px;
     margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+    line-height: 1;
 }
 .revenue-block ul li span{
-    font-size: 15px;
     font-weight: 600;
     color: #759e2d;
+    font-size: 18px;
+
  }
 .revenue-block .shedule-mini{
     width: 284px;
     height: 215px;
+    margin: 10px 20px 10px 0;
 }
+.dashboardpage h2.total-dash{
+    margin-top: 25px;
+}
+/*----------------------------------faq----------------------------------------*/
 .faq td:first-child{
     width: 3%;
     color: #444;
@@ -709,7 +731,7 @@ a.btn.btn-active{
 
 /***********************************************/
 .edit-list input{
-    padding: 12px 15px 13px;
+    padding: 13px 15px;
     font-size: 14px;
     color: #444;
     border:1px solid #ccc;
@@ -801,7 +823,7 @@ a.btn.btn-active{
 
 /*-----------------offers-list-------------------------------------------*/
 
-.id-tabl-offer{width: 5%;}
+.id-table{width: 5%;}
 
 .offers .title-tabl-offer{
     width: 23%;
@@ -818,8 +840,17 @@ a.btn.btn-active{
 
 .trackUrl-tabl-offer{width: 15%;}
 
-.btn-del-tabl,
-.btn-edit-tabl{width: 2.5%}
+.table .btn-del-tabl{
+    width: 2.5%;
+    text-align: left;
+    padding-left: 3px;
+    }
+.table .btn-edit-tabl{
+    width: 2.5%;
+    text-align: right;
+    padding-right: 3px;
+}
+
 
 .btn-chek-tabl{width: 5%}
 
