@@ -429,7 +429,8 @@ a.btn,
 
 }
 /*---------------------------------add-advertiser--------------------------------------*/
-.advertiserpage h1{margin-top: 27px}
+.advertiserpage h1,
+.faqpage h1{margin-top: 27px}
 
 table.table{
     width:100%;
@@ -439,13 +440,13 @@ table.table{
     text-align: center;
     color:#759e2d;
     text-transform: uppercase;
-    padding: 13px 0 12px;
+    padding: 10px 0 12px;
 }
 .advertisers.table th{
    text-align:left;
 }
-.advertisers.table th:first-child,
-.advertisers.table td:first-child{
+.table th:first-child,
+.table td:first-child{
   text-align: center;
 }
 .table td{
@@ -610,15 +611,18 @@ h2.first-title-dash{
     margin-top: 25px;
 }
 /*----------------------------------faq----------------------------------------*/
-.faq td:first-child{
-    width: 3%;
-    color: #444;
-}
+/*.faq td:first-child{*/
+    /*width: 3%;*/
+    /*color: #444;*/
+/*}*/
 .faq td:nth-child(2){
-    width: 78.3529411765%;
+    width: 87%;
+}
+.faq th:nth-child(2){
+    text-align: left;
 }
 .faq td:nth-child(3){
-    width: 4%;
+    width: 3%;
     text-align: center;
 }
 .table input[type="checkbox"]{
@@ -626,7 +630,7 @@ h2.first-title-dash{
 }
 .table label {
     width:16px;
-    height: 16px;
+    height: 12px;
     display: block;
     position: relative;
     margin-left: 25%;
@@ -655,30 +659,30 @@ h2.first-title-dash{
     height: 16px;
     padding: 9px;
 }
-.faq-list{
-    overflow: hidden;
-    width: 100%;
-}
-.faq-list > tbody > tr > td.first-item{
-    padding-top:40px;
-}
+/*.faq-list{*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+/*}*/
+/*.faq-list > tbody > tr > td.first-item{*/
+    /*padding-top:40px;*/
+/*}*/
 
 
-.faq-list td:first-child{
-    width: 300px;
-    padding: 20px 20px 20px;
-    text-align: right;
-    text-transform: uppercase;
-    background-color: #F7F7F7;
-    color: #888;
-    vertical-align: top;
-}
-.faq-list td:last-child{
-    width: calc(100% - 300px);
-    padding: 20px 20px 20px;
-    background-color: #fff;
+/*.faq-list td:first-child{*/
+    /*width: 300px;*/
+    /*padding: 20px 20px 20px;*/
+    /*text-align: right;*/
+    /*text-transform: uppercase;*/
+    /*background-color: #F7F7F7;*/
+    /*color: #888;*/
+    /*vertical-align: top;*/
+/*}*/
+/*.faq-list td:last-child{*/
+    /*width: calc(100% - 300px);*/
+    /*padding: 20px 20px 20px;*/
+    /*background-color: #fff;*/
 
-}
+/*}*/
 .faq-form input,
 .faq-form textarea{
     min-height: 45px;
