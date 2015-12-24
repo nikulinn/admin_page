@@ -281,7 +281,7 @@ a.btn,
     /*padding-left: 25px;*/
 /*}*/
 .right-nav li:last-child{
-    background: url("../images/icon-edit-green.png") no-repeat 18px 3px;
+    background: url("../images/icon-edit-green.png") no-repeat 18px 15px;
 }
 
 .right-nav li:last-child a span{
@@ -354,10 +354,9 @@ a.btn,
 .right-nav .back{
     padding: 12px 10px 10px 28px;
     background-position: 15px 15px;
+    float: left;
 }
-.right-nav .edit-adv{
-    padding: 12px 10px 10px 35px;
-}
+
 /*---------------------Edit Form-----------------------------------------*/
 .adv-list dt{
     padding-top: 20px;
@@ -730,11 +729,6 @@ a.btn.btn-active{
 }
 .faq-list .middle-indent{line-height: 1.25;}
 
-.right-nav .edit-faq{
-    padding: 11px 18px 11px 38px;
-    margin-left: -1px;
-
-}
 .right-nav .backfaq{
     padding-top: 11px;
     padding-bottom: 11px;
@@ -752,7 +746,8 @@ a.btn.btn-active{
     padding: 13px 10px 9px 30px;
 }
 .right-nav .edit-offer{
-    padding: 13px 10px 9px 35px;
+    padding: 11px 10px 11px 35px;
+    float: right;
 }
 
 
