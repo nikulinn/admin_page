@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835ba2ad-c358-4098-abf3-d1c724c29764" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advertisers Management.html" afterPath="$PROJECT_DIR$/Advertisers Management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advertisers Management_edit.html" afterPath="$PROJECT_DIR$/Advertisers Management_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq details edit.html" afterPath="$PROJECT_DIR$/faq details edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq details.html" afterPath="$PROJECT_DIR$/faq details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offer_details.html" afterPath="$PROJECT_DIR$/offer_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offer_details_edit.html" afterPath="$PROJECT_DIR$/offer_details_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offers.html" afterPath="$PROJECT_DIR$/offers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="admin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,37 +34,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="632" column="14" selection-start="14328" selection-end="14328" vertical-scroll-proportion="0.15487571" vertical-offset="11295" max-vertical-offset="18900">
+            <state line="878" column="38" selection-start="19205" selection-end="19205" vertical-scroll-proportion="-8.176471" vertical-offset="15526" max-vertical-offset="19242">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Advertisers.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advertisers.html">
+      <file leaf-file-name="offer_details.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/offer_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="379" selection-start="2634" selection-end="2646" vertical-scroll-proportion="-8.037037" vertical-offset="593" max-vertical-offset="1656">
+            <state line="29" column="27" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.23739238" vertical-offset="329" max-vertical-offset="1548">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faq.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq.html">
+      <file leaf-file-name="user_details_edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_details_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-3.148148" vertical-offset="455" max-vertical-offset="1566">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1584">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_details.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_details.html">
+      <file leaf-file-name="offer_details_edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/offer_details_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1440">
+            <state line="142" column="77" selection-start="9265" selection-end="9273" vertical-scroll-proportion="-20.555555" vertical-offset="2001" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
@@ -77,18 +84,22 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Ticket.html" />
-        <option value="$PROJECT_DIR$/offer_details.html" />
         <option value="$PROJECT_DIR$/ticket-table.html" />
         <option value="$PROJECT_DIR$/ticket.html" />
         <option value="$PROJECT_DIR$/user_details.html" />
         <option value="$PROJECT_DIR$/user_details_edit.html" />
         <option value="$PROJECT_DIR$/users.html" />
         <option value="$PROJECT_DIR$/Advertisers.html" />
-        <option value="$PROJECT_DIR$/Advertisers Management.html" />
-        <option value="$PROJECT_DIR$/Advertisers Management_edit.html" />
         <option value="$PROJECT_DIR$/Dashboard.html" />
         <option value="$PROJECT_DIR$/faq.html" />
+        <option value="$PROJECT_DIR$/offer_details_edit.html" />
+        <option value="$PROJECT_DIR$/Advertisers Management.html" />
+        <option value="$PROJECT_DIR$/faq details.html" />
+        <option value="$PROJECT_DIR$/Advertisers Management_edit.html" />
+        <option value="$PROJECT_DIR$/faq details edit.html" />
+        <option value="$PROJECT_DIR$/offers.html" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
+        <option value="$PROJECT_DIR$/offer_details.html" />
       </list>
     </option>
   </component>
@@ -102,9 +113,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="693" />
+    <option name="y" value="92" />
+    <option name="width" value="1185" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,6 +144,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,7 +179,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -258,17 +270,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="7" />
+    <frame x="693" y="92" width="1185" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20242488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33046472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39021853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37721023" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25688073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -290,14 +302,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18287373" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37721023" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33046472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25688073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -318,11 +330,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/users.html">
+    <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1602">
+        <state line="445" column="10" selection-start="10835" selection-end="10835" vertical-scroll-proportion="0.0" vertical-offset="7668" max-vertical-offset="19638">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="37" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advertisers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="379" selection-start="2634" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advertisers Management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="60" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="60" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="35" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="1566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="50" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1602" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
@@ -334,63 +386,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1602">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advertisers Management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="1521" selection-end="1521" vertical-scroll-proportion="-7.3333335" vertical-offset="324" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1602" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="92" selection-start="2543" selection-end="2553" vertical-scroll-proportion="-3.3703704" vertical-offset="773" max-vertical-offset="1602">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advertisers Management_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="4446" selection-end="4446" vertical-scroll-proportion="-5.3703704" vertical-offset="1061" max-vertical-offset="1494">
-          <folding />
-        </state>
+        <state line="48" column="92" selection-start="2543" selection-end="2553" vertical-scroll-proportion="-3.3703704" vertical-offset="773" max-vertical-offset="1602" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="60" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-0.5958188" vertical-offset="702" max-vertical-offset="2052">
+        <state line="20" column="60" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-0.5958188" vertical-offset="702" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="35" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Advertisers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="379" selection-start="2634" selection-end="2646" vertical-scroll-proportion="-8.037037" vertical-offset="593" max-vertical-offset="1656">
+        <state line="45" column="379" selection-start="2634" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1656">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq.html">
+    <entry file="file://$PROJECT_DIR$/Advertisers Management.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-3.148148" vertical-offset="455" max-vertical-offset="1566">
+        <state line="34" column="60" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="60" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offer_details_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="77" selection-start="9265" selection-end="9273" vertical-scroll-proportion="-20.555555" vertical-offset="2001" max-vertical-offset="2790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advertisers Management_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="93" selection-start="4670" selection-end="4670" vertical-scroll-proportion="-20.185184" vertical-offset="715" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_details_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq details edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="59" selection-start="803" selection-end="803" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="72" selection-start="2517" selection-end="2517" vertical-scroll-proportion="-14.0" vertical-offset="486" max-vertical-offset="1746">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="632" column="14" selection-start="14328" selection-end="14328" vertical-scroll-proportion="0.15487571" vertical-offset="11295" max-vertical-offset="18900">
+        <state line="878" column="38" selection-start="19205" selection-end="19205" vertical-scroll-proportion="-8.176471" vertical-offset="15526" max-vertical-offset="19242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offer_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="27" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.23739238" vertical-offset="329" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
